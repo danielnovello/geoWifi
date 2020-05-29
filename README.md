@@ -1,11 +1,12 @@
 # geoWifi
 
-Scan for available SSID's and if your SSID is found, trigger a policy in Jamf
+Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
 
-<b>Usage:</b>
-  <code>sudo ./geoWifi "SSID"</code>
+ <b>Usage:</b>
+ 
+ <code>sudo ./geoWifi "SSID"</code>
   
-If SSID found
+  If SSID found
  
 <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
   
@@ -32,3 +33,5 @@ If SSID found
 - Run the LaunchDaemon
 
   <code>sudo launchctl load -w /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
+  
+  All logs in <i>/private/var/log/geowifi.log</i>

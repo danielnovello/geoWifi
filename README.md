@@ -1,8 +1,10 @@
 # geoWifi
 
-Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
+Scan for available SSID's and if specified SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
 
 <i>(Poor mans iBeacons)</i>
+
+Note: Does not need to be connected to any Wifi to function. It scans available Wifi SSID's
 
 
  <b>Manual usage:</b>

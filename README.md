@@ -2,7 +2,7 @@
 
 Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
 
- <b>Usage:</b>
+ <b>Manual usage:</b>
  
  <code>sudo ./geoWifi "SSID"</code>
   
@@ -11,6 +11,7 @@ Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (P
 <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
   
   Example Alert script in Jamf
+  
     <code>#!/bin/bash</code>
     <code>/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -title "Jamf Security" -windowType hud -description "Jamf Security" -description "You are entering a probibited Area" &</code>
   
@@ -31,7 +32,6 @@ Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (P
     Fix the Permissions:
       
       <code>sudo chown root /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
-      
       <code>sudo chgrp wheel /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
 
 - Run the LaunchDaemon

@@ -5,7 +5,7 @@ Usage:
   sudo ./geoWifi <SSID>
   
  If found
- <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="48">
-  ![Alt Text](https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png | width=100)
+ 
+ <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="100">
   
   

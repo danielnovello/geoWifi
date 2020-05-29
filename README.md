@@ -4,8 +4,8 @@ Get available Wifi SSID and trigger policy in Jamf
 Usage:
   sudo ./geoWifi <SSID>
   
- If found
+If SSID found
  
- <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="100">
+<img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
   
   

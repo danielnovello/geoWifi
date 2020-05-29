@@ -25,7 +25,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
 
 - Open the project in Xcode and edit the jamf policy -trigger [TRIGGER]
 
-- Build the project nad copy the app to your chosen location <b>(/PATHTOAPP)</b>
+- Build the project and copy the app to your chosen location <b>(/PATHTOAPP)</b>
 
 - Create a script (make it executable) and copy it your chosen location
   

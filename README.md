@@ -43,4 +43,4 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
 
   <code>sudo launchctl load -w /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
   
-  All logs in <i>/private/var/log/geowifi.log</i>
+  All logs in <i>/private/var/log/geowifi.log</i> You might want to scrub the log every now and again.

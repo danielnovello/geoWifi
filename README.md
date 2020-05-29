@@ -1,7 +1,9 @@
 # geoWifi
 
 Scan for available SSID's and if your SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
+
 <i>(Poor mans iBeacons)</i>
+
 
  <b>Manual usage:</b>
  

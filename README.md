@@ -23,7 +23,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
   
 <b>Create a Persistant LaunchDaemon</b>
 
-- Open the project in Xcode and edit the jamf policy -trigger [TRIGGER]
+- Open the project in Xcode and edit the jamf policy -trigger [TRIGGER] in the main.swift file (<code>shell("/usr/local/bin/jamf policy -trigger wifitrigger")</code>)
 
 - Build the project and copy the app to your chosen location <b>(/PATHTOAPP)</b>
 

@@ -1,5 +1,7 @@
 # geoWifi
 
+Scan for available SSID's and if your SSID is found, trigger a policy in Jamf
+
 Usage:
   sudo ./geoWifi "SSID"
   

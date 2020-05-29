@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65745095247F9FC100CC9B97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65745094247F9FC100CC9B97 /* main.swift */; };
+		657F6F9424813B6300155C95 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F6F9324813B6300155C95 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6574508F247F9FC100CC9B97 /* CopyFiles */ = {
+		657F6F8E24813B6300155C95 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65745091247F9FC100CC9B97 /* geoWifi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geoWifi; sourceTree = BUILT_PRODUCTS_DIR; };
-		65745094247F9FC100CC9B97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		657F6F9024813B6300155C95 /* geoWifi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geoWifi; sourceTree = BUILT_PRODUCTS_DIR; };
+		657F6F9324813B6300155C95 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6574508E247F9FC100CC9B97 /* Frameworks */ = {
+		657F6F8D24813B6300155C95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65745088247F9FC100CC9B97 = {
+		657F6F8724813B6300155C95 = {
 			isa = PBXGroup;
 			children = (
-				65745093247F9FC100CC9B97 /* geoWifi */,
-				65745092247F9FC100CC9B97 /* Products */,
+				657F6F9224813B6300155C95 /* geoWifi */,
+				657F6F9124813B6300155C95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65745092247F9FC100CC9B97 /* Products */ = {
+		657F6F9124813B6300155C95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65745091247F9FC100CC9B97 /* geoWifi */,
+				657F6F9024813B6300155C95 /* geoWifi */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65745093247F9FC100CC9B97 /* geoWifi */ = {
+		657F6F9224813B6300155C95 /* geoWifi */ = {
 			isa = PBXGroup;
 			children = (
-				65745094247F9FC100CC9B97 /* main.swift */,
+				657F6F9324813B6300155C95 /* main.swift */,
 			);
 			path = geoWifi;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65745090247F9FC100CC9B97 /* geoWifi */ = {
+		657F6F8F24813B6300155C95 /* geoWifi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65745098247F9FC100CC9B97 /* Build configuration list for PBXNativeTarget "geoWifi" */;
+			buildConfigurationList = 657F6F9724813B6300155C95 /* Build configuration list for PBXNativeTarget "geoWifi" */;
 			buildPhases = (
-				6574508D247F9FC100CC9B97 /* Sources */,
-				6574508E247F9FC100CC9B97 /* Frameworks */,
-				6574508F247F9FC100CC9B97 /* CopyFiles */,
+				657F6F8C24813B6300155C95 /* Sources */,
+				657F6F8D24813B6300155C95 /* Frameworks */,
+				657F6F8E24813B6300155C95 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,25 +79,25 @@
 			);
 			name = geoWifi;
 			productName = geoWifi;
-			productReference = 65745091247F9FC100CC9B97 /* geoWifi */;
+			productReference = 657F6F9024813B6300155C95 /* geoWifi */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65745089247F9FC100CC9B97 /* Project object */ = {
+		657F6F8824813B6300155C95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Daniel Novello";
 				TargetAttributes = {
-					65745090247F9FC100CC9B97 = {
+					657F6F8F24813B6300155C95 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 6574508C247F9FC100CC9B97 /* Build configuration list for PBXProject "geoWifi" */;
+			buildConfigurationList = 657F6F8B24813B6300155C95 /* Build configuration list for PBXProject "geoWifi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 65745088247F9FC100CC9B97;
-			productRefGroup = 65745092247F9FC100CC9B97 /* Products */;
+			mainGroup = 657F6F8724813B6300155C95;
+			productRefGroup = 657F6F9124813B6300155C95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65745090247F9FC100CC9B97 /* geoWifi */,
+				657F6F8F24813B6300155C95 /* geoWifi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6574508D247F9FC100CC9B97 /* Sources */ = {
+		657F6F8C24813B6300155C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65745095247F9FC100CC9B97 /* main.swift in Sources */,
+				657F6F9424813B6300155C95 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		65745096247F9FC100CC9B97 /* Debug */ = {
+		657F6F9524813B6300155C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		65745097247F9FC100CC9B97 /* Release */ = {
+		657F6F9624813B6300155C95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		65745099247F9FC100CC9B97 /* Debug */ = {
+		657F6F9824813B6300155C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		6574509A247F9FC100CC9B97 /* Release */ = {
+		657F6F9924813B6300155C95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6574508C247F9FC100CC9B97 /* Build configuration list for PBXProject "geoWifi" */ = {
+		657F6F8B24813B6300155C95 /* Build configuration list for PBXProject "geoWifi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65745096247F9FC100CC9B97 /* Debug */,
-				65745097247F9FC100CC9B97 /* Release */,
+				657F6F9524813B6300155C95 /* Debug */,
+				657F6F9624813B6300155C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65745098247F9FC100CC9B97 /* Build configuration list for PBXNativeTarget "geoWifi" */ = {
+		657F6F9724813B6300155C95 /* Build configuration list for PBXNativeTarget "geoWifi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65745099247F9FC100CC9B97 /* Debug */,
-				6574509A247F9FC100CC9B97 /* Release */,
+				657F6F9824813B6300155C95 /* Debug */,
+				657F6F9924813B6300155C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65745089247F9FC100CC9B97 /* Project object */;
+	rootObject = 657F6F8824813B6300155C95 /* Project object */;
 }

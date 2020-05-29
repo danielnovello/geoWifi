@@ -2,7 +2,7 @@
 //  main.swift
 //  geoWifi
 //
-//  Created by Daniel Novello on 2020/05/28.
+//  Created by Daniel Novello on 2020/05/29.
 //  Copyright © 2020 Daniel Novello. All rights reserved.
 //
 
@@ -73,7 +73,7 @@ if CommandLine.argc < 2 {
 if let discovery = Discovery() {
     //print(discovery.networks)
     for network in discovery.networks {
-        //print(network.ssid!)
+        print("Found SSID: \(network.ssid!)")
         if network.ssid == CommandLine.arguments[1] {
             let alert: NSAlert = NSAlert()
             alert.icon = NSImage (named: NSImage.cautionName)
@@ -84,7 +84,8 @@ if let discovery = Discovery() {
             //alert.runModal()
             shell("/usr/local/bin/jamf policy -trigger wifitrigger")
         } else {
-            print("Your Wifi SSID is not found")
+            print("Found another SSID, but not the one specified")
         }
     }
 }
+

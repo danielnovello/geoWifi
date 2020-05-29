@@ -12,11 +12,19 @@ If SSID found
   
 <b>Create a Persistant LaunchDaemon</b>
 
-- Create a script (make it executable)
+- Copy the geoWifi app from Testing to your chosen location <b>(/PATHTOAPP)</b>
+
+- Create a script (make it executable) and copy it your chosen location
   <code>
   #!/bin/bash
-  /PATHTOSCRIPT "SSID"
+  /PATHTOAPP "SSID"
   </code>
 
-- Create a LaunchDaemon Plist
+- Create a LaunchDaemon Plist and copy to /Library/LaunchDaemons (Ammend with the location of your script)
   Example in Repo
+    Fix the Permissions:
+      <code>sudo chown root /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
+      <code>sudo chgrp wheel /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
+
+- Run the LaunchDaemon
+  <code>sudo launchctl load -w /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>

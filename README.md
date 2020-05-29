@@ -19,28 +19,4 @@ If SSID found
   </code>
 
 - Create a LaunchDaemon Plist
-  <code>
-  <?xml version="1.0" encoding="UTF-8"?>
-  <!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST 1.0//EN
-  http://www.apple.com/DTDs/PropertyList-1.0.dtd>
-  <plist version="1.0">
-   <dict>
-    <key>Label</key>
-     <string>com.djquazzi.geowifi</string>
-    <key>UserName</key>
-     <string>root</string>
-    <key>KeepAlive</key>
-     <true/>
-    <key>ProgramArguments</key>
-     <array>
-      <string>/Users/daniel/Desktop/geoWifi/Testing/tester.sh</string>
-     </array>
-    <key>StandardOutPath</key>
-     <string>/var/log/geowifi.log</string>
-    <key>StandardErrorPath</key>
-     <string>/var/log/geowifi.log</string>
-    <key>Debug</key>
-     <true/>
-   </dict>
-  </plist>
-  <code>
+  Example in Repo

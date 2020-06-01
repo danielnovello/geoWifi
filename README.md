@@ -41,8 +41,5 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
   
   All logs in <i>/private/var/log/geowifi.log</i> You might want to scrub the log every now and again.
  
+ 
  Built application, example script and launchDaemon in Testing directory
- 
- 
- <b>To do</b>
- - Add some fail safe catches. If command not entered correctly

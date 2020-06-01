@@ -62,30 +62,34 @@ func shell(_ command: String) -> String {
 }
 
 if CommandLine.argc < 2 {
-    print("No arguments are passed.")
+    //print("No arguments are passed.")
     _ = CommandLine.arguments[0]
     //print(mywifi)
 } else {
-    print("Arguments are passed.")
+    //print("Arguments are passed.")
     _ = CommandLine.arguments
 }
 
-if let discovery = Discovery() {
-    //print(discovery.networks)
-    for network in discovery.networks {
-        print("Found SSID: \(network.ssid!)")
-        if network.ssid == CommandLine.arguments[1] {
-            let alert: NSAlert = NSAlert()
-            alert.icon = NSImage (named: NSImage.cautionName)
-            alert.messageText = "Wifi Trigger"
-            alert.informativeText = "You have entered the Wifi area that has triggered an event"
-            alert.alertStyle = NSAlert.Style.informational
-            alert.addButton(withTitle: "OK")
-            //alert.runModal()
-            shell("/usr/local/bin/jamf policy -trigger wifitrigger")
-        } else {
-            print("Found another SSID, but not the one specified")
-        }
+var count = CommandLine.argc
+//print("Number of arguments is \(count)")
+
+if count == 1  {
+        print("Missing arguments. Example: geoWifi SSID JAMFTRIGGER")
     }
+else if count == 2 {
+    print("Missing arguments. Example: geoWifi SSID JAMFTRIGGER")
 }
+else {
+        if let discovery = Discovery() {
+            for network in discovery.networks {
+                print("Found SSID: \(network.ssid!)")
+                if network.ssid == CommandLine.arguments[1] {
+                    shell("/usr/local/bin/jamf policy -trigger \(CommandLine.arguments[2])")
+                } else {
+                    print("Found another SSID, but not the one specified")
+                }
+            }
+        }
+
+    }
 

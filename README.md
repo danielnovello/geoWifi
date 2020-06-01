@@ -9,40 +9,40 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
 
  <b>Manual usage:</b>
  
- <code>sudo ./geoWifi "SSID"</code>
+    sudo ./geoWifi "SSID" "JAMFTRIGGER"
   
   If SSID found
  
-<img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
+  <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
   
   Example Alert script in Jamf
   
-    <code>#!/bin/bash</code>
-    <code>/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -title "Jamf Security" -windowType hud -description "Jamf Security" -description "You are entering a probibited Area" &</code>
+    #!/bin/bash
+    /Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -title "Jamf Security" -windowType hud -description "Jamf Security" -description "You are entering a probibited Area" &
   
   
 <b>Create a Persistant LaunchDaemon</b>
 
-- Open the project in Xcode and edit the jamf policy -trigger [TRIGGER] in the main.swift file (<code>shell("/usr/local/bin/jamf policy -trigger wifitrigger")</code>)
-
-- Build the project and copy the app to your chosen location <b>(/PATHTOAPP)</b>
-
 - Create a script (make it executable) and copy it your chosen location
   
-  <code>
-  #!/bin/bash
-  /PATHTOAPP "SSID"
-  </code>
-
+      #!/bin/bash
+      /PATHTOAPP "SSID" "JAMFTRIGGER"
+      
 - Create a LaunchDaemon Plist and copy to /Library/LaunchDaemons (Ammend with the location of your script)
   Example in Repo
     Fix the Permissions:
       
-      <code>sudo chown root /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
-      <code>sudo chgrp wheel /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
+      sudo chown root /Library/LaunchDaemons/com.djquazzi.geowifi.plist
+      sudo chgrp wheel /Library/LaunchDaemons/com.djquazzi.geowifi.plist
 
 - Run the LaunchDaemon
 
-  <code>sudo launchctl load -w /Library/LaunchDaemons/com.djquazzi.geowifi.plist</code>
+      sudo launchctl load -w /Library/LaunchDaemons/com.djquazzi.geowifi.plist
   
   All logs in <i>/private/var/log/geowifi.log</i> You might want to scrub the log every now and again.
+ 
+ Built application, example script and launchDaemon in Testing directory
+ 
+ 
+ <b>To do</b>
+ - Add some fail safe catches. If command not entered correctly

@@ -9,7 +9,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
 
  <b>Manual usage:</b>
  
-    sudo ./geoWifi "SSID" "JAMFTRIGGER"
+    sudo ./geoWifi SSID JAMFTRIGGER
   
   If SSID found
  
@@ -26,7 +26,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
 - Create a script (make it executable) and copy it your chosen location
   
       #!/bin/bash
-      /PATHTOAPP "SSID" "JAMFTRIGGER"
+      /PATHTOAPP SSID JAMFTRIGGER
       
 - Create a LaunchDaemon Plist and copy to /Library/LaunchDaemons (Ammend with the location of your script)
   Example in Repo

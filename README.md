@@ -2,10 +2,7 @@
 
 ![](https://img.shields.io/github/v/release/danielnovello/geoWifi)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)
 
-
 Scan for available SSID's and if specified SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
-
-<i>(Poor mans iBeacons)</i>
 
 Note: Does not need to be connected to any Wifi to function. It scans available Wifi SSID's
 

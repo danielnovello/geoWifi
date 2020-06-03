@@ -15,7 +15,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
  
   <img src="https://github.com/djquazzi/djquazzi.github.io/blob/master/images/Alert.png" width="400">
   
-  Example Alert script in Jamf
+  <i>Example Alert script in Jamf</i>
   
     #!/bin/bash
     /Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -title "Jamf Security" -windowType hud -description "Jamf Security" -description "You are entering a probibited Area" &

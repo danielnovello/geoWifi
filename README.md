@@ -13,7 +13,7 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
   
   If SSID found
  
-  <img src="https://github.com/danielnovello/danielnovello.github.io/blob/master/images/Alert.png" width="400">
+  <img src="https://novello.co.za/img/Alert.png" width="400">
   
   <i>Example Alert script in Jamf</i>
   

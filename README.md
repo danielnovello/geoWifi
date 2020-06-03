@@ -23,7 +23,8 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
   <hr>
 
 <b>Create a Persistant LaunchDaemon</b>
- <i>NOTE: This has not been tested long term. Not sure of the CPU usage over long periods of time.</i>
+
+<i>NOTE: This has not been tested long term. Not sure of the CPU usage over long periods of time.</i>
 
 - Create a script (make it executable) and copy it your chosen location
   

@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/github/v/release/danielnovello/geoWifi)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)
 
-Scan for available SSID's and if specified SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
+Lightweight CLI application that scans for available SSID's and if specified SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
 
 Note: Does not need to be connected to any Wifi to function. It scans available Wifi SSID's
 
@@ -46,11 +46,11 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
  
    <hr>
 
-   <h3>Why not use built in method and script?</h3>
+   <h3>Why not use built in method and script? (Legacy command)</h3>
 
        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
 
-  The above command using the <i>airport</i> command does work, however testing the <i>airport</i> command and <i>geoWifi</i> along side each other, it is clear that for reliabilty, acuaracy and performance <i>geoWifi</i> wins slightly
+  The above command using the <i>airport</i> command does work, however testing the <i>airport</i> command and <i>geoWifi</i> along side each other, it is clear that for reliabilty, accuracy and performance <i>geoWifi</i> wins when used with a persistant LaunchDaemon
 
     <hr>
  

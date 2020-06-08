@@ -45,5 +45,13 @@ Note: Does not need to be connected to any Wifi to function. It scans available 
   All logs in <i>/private/var/log/geowifi.log</i> You might want to scrub the log every now and again.
  
    <hr>
+
+   <h3>Why not use built in method and script?</h3>
+
+       /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+
+  The above command using the <i>airport</i> command does work, however testing the <i>airport</i> command and <i>geoWifi</i> along side each other, it is clear that for reliabilty, acuaracy and performance <i>geoWifi</i> wins slightly
+
+    <hr>
  
  Built application, example script and launchDaemon in Testing directory

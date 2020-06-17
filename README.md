@@ -2,6 +2,10 @@
 
 ![](https://img.shields.io/github/v/release/danielnovello/geoWifi)&nbsp;![](https://img.shields.io/badge/macOS-10.14%2B-success)
 
+
+https://danielnovello.github.io/geoWifi/
+
+
 Lightweight CLI application that scans for available SSID's and if specified SSID is found, trigger a policy in Jamf (Potentailly anything you want to happen)
 
 Note: Does not need to be connected to any Wifi to function. It scans available Wifi SSID's
